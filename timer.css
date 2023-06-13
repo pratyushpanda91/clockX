@@ -99,7 +99,7 @@ input::-webkit-inner-spin-button {
 @media screen and (min-width: 450px){
     .box{
         width: 90%;
-        height: 60vh;
+        height: 61vh;
         background-color: dodgerblue;
         border: 2px solid white;
         border-radius: 5px;
@@ -148,11 +148,11 @@ input::-webkit-inner-spin-button {
 }
 .box .btn button{
     padding: 5px 10px;
-    font-size: 70px;
+    font-size: 65px;
     background-color: darkblue;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
    
 }
@@ -167,7 +167,7 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
     font-family: sans-serif;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
     text-decoration: none;
     background-color: darkblue;
 }

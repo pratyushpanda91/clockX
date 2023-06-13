@@ -17,7 +17,7 @@ body {
 
 .container {
     background-color: #fff;
-    width: 30%;
+    width: 90%;
     min-width: 500px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -32,12 +32,12 @@ body {
 
 .timer-display {
     position: relative;
-    width: 76%;
+    width: 83%;
     background: #fff;
     left: 4%;
     font-family: 'Roboto mono', monospace;
     color: darkblue;
-    font-size: 30px;
+    font-size: 80px;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -53,13 +53,13 @@ body {
 }
 
 .buttons button {
-    width: 100px;
-    height: 45px;
+    width: 170px;
+    height: 85px;
     background-color: white;
     color: darkblue;
     border: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;

@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 .box{
-    width: 400px;
+    width: 90%;
     height: 40vh;
     background-color: dodgerblue;
     border: 2px solid white;
@@ -98,7 +98,7 @@ input::-webkit-inner-spin-button {
 
 @media screen and (min-width: 450px){
     .box{
-        width: 400px;
+        width: 90%;
         height: 60vh;
         background-color: dodgerblue;
         border: 2px solid white;
@@ -112,7 +112,7 @@ input::-webkit-inner-spin-button {
         color: white;
         font-weight: bold;
         text-align: center;
-        font-size: 30px;
+        font-size: 70px;
         line-height: 10vh;
     }
     .box form{
@@ -123,13 +123,13 @@ input::-webkit-inner-spin-button {
         text-align: center;
     }
     .box form input{
-        width: 120px;
+        width: 250px;
         border: none;
         outline: none;
         border-bottom: 4px solid white;
         color: white;
         background-color: transparent;
-        font-size: 25px;
+        font-size: 50px;
         text-align: center;
     
     }
@@ -148,7 +148,7 @@ input::-webkit-inner-spin-button {
 }
 .box .btn button{
     padding: 5px 10px;
-    font-size: 25px;
+    font-size: 70px;
     background-color: darkblue;
     color: #fff;
     border: none;
@@ -163,7 +163,7 @@ input::-webkit-inner-spin-button {
 }
 .home a{
     padding: 5px 10px;
-    font-size: 25px;
+    font-size: 70px;
     cursor: pointer;
     font-family: sans-serif;
     color: white;

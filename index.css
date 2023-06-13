@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: rgb(1, 1, 40);
+    overflow-x: hidden;
+}
+
+body{
+    overflow: hidden;
+    background:linear-gradient(rgb(6, 15, 249),rgb(8, 46, 127),rgb(1, 1, 40));
+ 
+}
+
+.header{
+    padding: 0 2rem;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    position: fixed;
+    border:5px solid darkblue;
+}
+
+.icon{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.icon[name="close-outline"]{
+    display: none;
+}
+
+.button{
+    display: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    color: dodgerblue;
+    transform: .5s;
+}
+
+
+.header h2{
+    font-size: 3.5rem;
+    transition: 0.8s;
+    background-image: linear-gradient(
+        to right,
+        dodgerblue 0,
+        dodgerblue 22%, 
+        dodgerblue 45%,
+        dodgerblue 50%,
+        dodgerblue 55%,
+        dodgerblue 78%,
+        dodgerblue 100%
+        );
+       color:transparent;
+       -webkit-background-clip:text;
+}*/
+
+.header h2:hover{
+    font-size: 3.8rem;
+}
+
+.list{
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+    background-image: linear-gradient(
+	to right,
+    
+        white,
+        white 22%, 
+        rgb(126, 184, 236) 45%,
+        rgb(126, 184, 236),
+        dodgerblue 55%,
+        dodgerblue 78%,
+        dodgerblue 100%
+	);
+    -webkit-background-clip: text;
+}
+/*.list:hover{
+    color:white;
+    scale(1.2);
+    transform: .2s;
+}*/
+
+.link:link,.link:visited{
+    display: inline-block;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-weight: 750;
+    font-size: 2rem;
+    color:transparent;
+    
+}
+
+h1{
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 27rem;
+    text-transform: capitalize;
+    color: dodgerblue;
+    
+}
+span{
+    color: white;
+}
+
+@media(max-width:960px){
+    .button{
+        display: block;
+        z-index: 999;
+        border: 3px solid black;
+    }
+
+
+    .navbar{
+        width: 100%;
+        height: 100vh;
+        background: #041a31 ;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: translateX(100%);
+        transition: all 0.2s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+      
+    }
+
+    .list{
+        flex-direction: column;
+        align-items:center ;
+        
+    }
+
+    .active .navbar{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .button .icon[name="close-outline"]{
+        display: block;
+    }
+
+    .active .button .icon[name="menu-outline"]{
+        display: none;
+    }
+
+
+}
+

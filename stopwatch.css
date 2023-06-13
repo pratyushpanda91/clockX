@@ -37,8 +37,8 @@ body {
     left: 4%;
     font-family: 'Roboto mono', monospace;
     color: darkblue;
-    font-size: 70px;
-    padding: 40px;
+    font-size: 60px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
